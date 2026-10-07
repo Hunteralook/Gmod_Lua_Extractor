@@ -1,0 +1,17 @@
+[package]
+name = "gmod_lua_extractor"
+version = "1.0.0"
+edition = "2021"
+description = "Распаковщик клиентских Lua-скриптов из кэша Garry's Mod"
+license = "MIT"
+
+[[bin]]
+name = "gmod_lua_extractor"
+path = "src/main.rs"
+
+[dependencies]
+lzma-rs = "0.3"
+
+[profile.release]
+strip = true
+lto = true

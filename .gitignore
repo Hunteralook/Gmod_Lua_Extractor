@@ -1,0 +1,11 @@
+/target
+/extracted_lua
+Cargo.lock
+.env
+.env.*
+!.env.example
+*.log
+/target/
+/extracted_lua/
+*.exe
+*.pdb
